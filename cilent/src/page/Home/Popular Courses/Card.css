@@ -1,0 +1,117 @@
+.cards_data {
+    box-sizing: border-box;
+    padding: 0 20%;
+    margin-top: 200px;
+}
+
+.cards_data h1 {
+    margin: 60px 0;
+}
+
+.cards {
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between
+}
+
+.card {
+    box-sizing: border-box;
+    max-height: 67px;
+    width: 30%;
+    background-color: whitesmoke;
+}
+
+.card_product_img {
+    width: 100%;
+}
+
+.card_product_img img {
+    width: 100%;
+}
+
+.card_product_text {
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    padding-top: 55px;
+    padding-bottom: 35px;
+}
+
+.card_product_text a {
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 500;
+    color: rgb(26, 26, 26);
+    line-height: 1.2;
+}
+
+.card_product_text span {
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(165, 165, 165);
+}
+
+.card_product_user {
+    background-color: #EAEBEC;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+
+}
+
+.user {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.user img {
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    margin: auto 23px auto 20px;
+}
+
+
+.prices {
+    width: 67px;
+    height: 67px;
+    background: rgb(255, 182, 6);
+    display: flex;
+    padding: auto;
+}
+
+.price {
+    margin: auto;
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+}
+
+.userName {
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 14px;
+}
+
+.userWork {
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 14px;
+    color: #A5a5a5;
+}
+
+.card_delete {
+    background-color: red;
+    text-align: start;
+    display: flex;
+}
+
+.card_delete button {
+    background-color: red;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    color: white;
+    margin: auto;
+}
